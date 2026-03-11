@@ -67,6 +67,7 @@ docker compose exec web python manage.py createsuperuser
 | POST | `/api/v1/token/refresh/` | Обновление токена |
 | GET | `/api/v1/rooms/` | Список номеров |
 | GET/POST | `/api/v1/bookings/` | Бронирования |
+| DELETE | `/api/v1/bookings/{id}/` | Отмена бронирования |
 
 ## Документация API
 
